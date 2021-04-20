@@ -1,0 +1,200 @@
+body {
+  margin: 0;
+  background-color: rgb(37, 46, 46);
+  color: rgb(219, 199, 199);
+}
+
+mark {
+  color: rgb(220, 236, 250);
+  background: rgb(220, 236, 250);
+  font-weight: 900;
+}
+
+header {
+  text-align: center;
+}
+
+.site-title {
+  background-color: rgb(77, 90, 90);
+  padding: 3em 0;
+}
+
+h1 {
+  font-weight: 900;
+  font-size: 4rem;
+  margin: 0;
+}
+h2 {
+  font-size: 2rem;
+  margin-top: 0;
+}
+
+h3 {
+  font-size: 1.6rem;
+  background-color: black;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding: 0.75em;
+  color: white;
+}
+h4 {
+  font-size: 1.35rem;
+  margin-top: 0;
+  margin-bottom: 0;
+  background-color: rgb(124, 124, 124);
+  padding-top: 1em;
+}
+
+.subtitle {
+  font-weight: 700;
+  font-size: 1.25rem;
+  margin: 0;
+}
+
+nav {
+  margin-top: 0;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  margin-top: 1em;
+}
+
+nav li {
+  margin: 0 1em;
+}
+
+nav a {
+  text-decoration: none;
+  color: rgb(220, 236, 250);
+  font-weight: 700;
+  font-size: 1.5rem;
+  padding: 0.1em 0;
+}
+
+nav a:hover {
+  color: rgb(160, 69, 36);
+}
+
+nav a:focus {
+  color: rgb(160, 69, 36);
+  border-bottom: 1px solid rgb(220, 236, 250);
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+}
+
+.person {
+  width: 100%;
+
+  display: flex;
+  padding: 0;
+  justify-content: space-between;
+}
+.propic {
+  width: 40%;
+}
+
+.pfp {
+  width: 40%;
+  border-radius: 50%;
+  float: right;
+}
+.info {
+  width: 58%;
+  text-align: left;
+}
+.pname a {
+  text-decoration: none;
+  color: rgb(220, 236, 250);
+  font-weight: 700;
+  font-size: 1.25rem;
+}
+
+.pname a:hover {
+  color: rgb(86, 21, 172);
+}
+
+.infop {
+  font-size: 1.3em;
+}
+.git {
+  width: 6%;
+  float: left;
+}
+
+.person-info {
+  margin-top: 2em;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.brief {
+  width: 67%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.summary {
+  width: 30%;
+}
+
+.briefs {
+  background-color: rgb(124, 124, 124);
+}
+.briefs ul {
+  list-style: none;
+  margin-top: 0;
+  background-color: rgb(124, 124, 124);
+  padding-top: 1.25em;
+}
+.briefs li {
+  color: wheat;
+  font-size: 1.25rem;
+  padding: 0.75em;
+}
+
+.skill li {
+  list-style-type: "→";
+}
+.tool li {
+  list-style-type: "✓";
+}
+
+.edu ul {
+  padding-top: 0.5em;
+}
+
+.edup {
+  font-size: 1.32rem;
+  color: aliceblue;
+}
+
+.ass-ul {
+  margin-top: 0;
+  background-color: rgb(124, 124, 124);
+  padding: 1rem;
+  color: aliceblue;
+  font-size: 1.15rem;
+}
+.ass-ul li {
+  padding: 0.5rem;
+}
+.ch2 {
+  font-size: 2.5rem;
+  margin-top: 0;
+  text-align: center;
+}
+
+.edp {
+  padding: 2rem;
+  background-color: rgb(124, 124, 124);
+  margin-top: 0;
+}
